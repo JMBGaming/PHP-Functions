@@ -4,7 +4,7 @@ function mysql_prep($value) {
 	$magic_quotes_active = get_magic_quotes_gpc();
 	$new_enough_php = function_exists("mysql_real_escape_string"); // i.e PHP >= v4.3.0
 	
-	if ($new_enough_php) 
+	if ($new_enuogh_php) 
 	{
 		// undo any magic quote effects to mysql_real_escape_string can do the work
 		if($magic_quotes_active) 
